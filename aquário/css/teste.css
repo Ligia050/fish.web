@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+body {
+    background: url(../img/img.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 9%;
+    font-size:300%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.1em;
+}
+
+
+header {
+    background-color:  rgb(11, 39, 71);
+    padding: 1em;
+    height: 15%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section {
+    padding: 1em;
+    color:aliceblue;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px black;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(11, 39, 71);
+    color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: cursive;
+
+}
+
+
+nav .menu{
+    color:aliceblue;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a{
+    color: rgb(211, 221, 230);
+    float: left;
+    text-decoration: none;
+    display:inline-flex;
+    padding: 14px 16px;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    transition: 0.8s;
+    background-color: rgb(207, 179, 19);
+    color: rgb(2, 6, 8);
+}
+
+h3{
+    font-family: sans-serif;
+}

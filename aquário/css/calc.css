@@ -1,0 +1,25 @@
+.info input{
+    height: 20px;
+    width: 300px;
+    font-size: 20px;
+    background-color:  rgb(11, 39, 71);
+    color: aliceblue;
+    border-color:  rgb(11, 39, 71);;
+}
+button{
+    height: 40px;
+    width: 155px;
+    font-size: 30px;
+    background-color:  rgb(11, 39, 71);;
+    color:aliceblue;
+    border-color:  rgb(11, 39, 71);;
+}
+
+.info h2{
+    text-align: left;
+}
+
+.info p{
+    font-family: fantasy;
+}
+

@@ -1,0 +1,123 @@
+
+body{
+    background-image:url("../videoaquario.mp4");
+    background-size: 100%;
+    background-color: rgb(142, 167, 184);
+    padding: 10px ;
+    color:rgb(11, 39, 71);
+
+}
+
+.bloco{
+    margin:25px;
+    background-color:rgb(11, 39, 71);
+    min-height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bloco h2{
+    color: aliceblue;
+}
+
+.bloco img{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bloco p{
+    text-align:center;
+    margin: 12px;
+    color:aliceblue
+}
+
+
+h2,h4{
+    text-align: center;
+    color: rgb(11, 39, 71);
+}
+
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color:rgb(11, 39, 71);
+}
+
+.info{
+    margin: 30px;
+    align-items: center;
+    font-size: large;
+  
+}
+
+
+/*menu alinhado ao centro*/
+
+nav{
+    background-color:  rgb(11, 39, 71);
+    width: 100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: right;
+}
+
+nav .menu{
+    color:aliceblue;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a{
+    color: rgb(211, 221, 230);
+    float: left;
+    text-decoration: none;
+    display:inline-flex;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+nav a:hover{
+    transition: 0.8s;
+    background-color: rgb(207, 179, 19);
+    color: rgb(2, 6, 8);
+}
+
+
+.info{
+    margin: 30px;
+    
+}
+
+.info input, button{
+    padding: 6px;
+    margin: auto;
+    display:block;
+}
+
+
+
+.conteudo {
+    padding: 0 20px;
+    margin-left: 1%;
+}
+
+footer{
+    
+    display: flex;
+    justify-content: right;
+    padding:10px;
+    color: black;
+}
+
+
+
